@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/kamisuzuri/lrn_package/somepackage"
+	"github.com/kamisuzuri/lrn_package/src/tr"
 	//"somepackage"
 	// "github.com/kamisuzuri/lrn_package/src/internal"
 )
@@ -22,6 +22,6 @@ func main() {
 	fmt.Println(ff(3))
 	//   disp.SomeFunction()
 	//	itnldisp.SomeFunction()
-	somepackage.SomeFunction()
+	tr.SomeFunction()
 
 }
